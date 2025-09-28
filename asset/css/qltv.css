@@ -1,0 +1,118 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+input[type="number"],
+input[type="datetime-local"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+textarea {
+  height: 60px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #357abd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+td {
+  color: #555;
+}
+
+.btn-del,
+.btn-edit {
+  display: inline-block;
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.btn-del {
+  background-color: #e57373;
+  color: white;
+}
+
+.btn-del:hover {
+  background-color: #ef5350;
+}
+
+.btn-edit {
+  background-color: #ffb74d;
+  color: white;
+}
